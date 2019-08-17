@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import styles from "./SubBanner.module.css";
 import Image from "./Image";
 import Button from "./Button";
-export default class subBanner extends Component {
+export default class SubBanner extends Component {
   render() {
     return (
       <div>
