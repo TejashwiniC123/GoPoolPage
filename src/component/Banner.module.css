@@ -1,0 +1,56 @@
+.Banner {
+  width: 100%;
+  /* display: flex; */
+  height: auto;
+}
+
+.imageHolder {
+  display: flex;
+  height: 600px;
+}
+
+.TextHeader {
+  width: 50%;
+  margin-left: auto;
+  
+
+}
+
+.ImageInsideText {
+  position: absolute;
+    top: 220px;
+    /* right: 191px; */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    color: #ffffff;
+}
+.ImageInsideText1
+{
+  position: absolute;
+    top: 260px;
+    width: 18%;
+    /* right: 260px; */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    color: #ffffff;
+    float: left;
+}
+
+.offerRideButton {
+  color: white;
+  /* border-radius: 41px; */
+  /* background-color: transparent; */
+  /* border-color: white; */
+  /* width: 107%; */
+  /* height: 34px; */
+  position: absolute;
+  top: 313px;
+  height: 35px;
+  width: 100px;
+
+}
+

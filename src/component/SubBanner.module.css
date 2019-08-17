@@ -1,0 +1,67 @@
+.subBanner {
+  width: 100%;
+  position: relative;
+  height: auto;
+  padding-top: 75px;
+  display: inline-block;
+}
+
+.RectLeft {
+  width: 50%;
+  height: auto;
+  position: relative;
+  display: inline-block;
+}
+.imageHolder {
+  width: 570px;
+  height: 370px;
+  margin-left: 127px;
+}
+
+.RectRight {
+  width: 50%;
+  height: auto;
+  position: relative;
+  display: inline-block;
+  padding-top: 40px;
+  left: 127px;
+  vertical-align: top;
+}
+.RectRight::before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 1;
+  height: 60px;
+  top: 38px;
+  bottom: 0px;
+  border-left: 5px solid #77c09e;
+  display: inline-block;
+}
+
+.ShortTripText {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 39px;
+  line-height: 53px;
+  right: 50px;
+  padding-left: 28px;
+  display: inline-block;
+}
+
+.TextContent {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  width: 30%;
+  line-height: 24px;
+  right: 50px;
+  margin-top: 34px;
+}
+
+.offerRideButton {
+  padding-top: 20px;
+  height: auto;
+}
