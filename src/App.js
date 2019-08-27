@@ -1,15 +1,21 @@
 import React, { Component } from "react";
 import "./App.css";
 import HomePage from "./component/HomePage";
-import SignupHeader from "./component/SignupHeader";
-import { Route, Link, BrowserRouter } from "react-router-dom";
+import SignUp from "./component/SignUp";
+import Findaride from "./component/Findaride";
+import Offeraride from "./component/Offeraride";
+import Login from "./component/Login";
+import { Route, BrowserRouter } from "react-router-dom";
 
 export default class App extends Component {
   render() {
     return (
       <BrowserRouter>
         <Route path="/" component={HomePage} exact={true} />
-        <Route path="/register" component={SignupHeader} />
+        <Route path="/Findaride" component={Findaride} />
+        <Route path="/Offeraride" component={Offeraride} />
+        <Route path="/Signup" component={SignUp} />
+        <Route path="/Login" component={Login} />
       </BrowserRouter>
     );
   }

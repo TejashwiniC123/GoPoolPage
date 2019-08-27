@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import styles from "./SubBanner.module.css";
 import Image from "./Image";
 import Button from "./Button";
+import { Link } from "react-router-dom";
 export default class SubBanner extends Component {
   render() {
     return (
@@ -18,7 +19,19 @@ export default class SubBanner extends Component {
 
               <div className={styles.TextContent}>{this.props.content}</div>
               <div className={styles.offerRideButton}>
-                <Button color="black">{this.props.button}</Button>
+                {this.props.button === "SignUp for free" ? (
+                  <Link to="/Signup">
+                    <Button color="black" borderRadius="20px">
+                      {this.props.button}
+                    </Button>
+                  </Link>
+                ) : (
+                  <Link to="/Offeraride">
+                    <Button color="black" borderRadius="20px">
+                      {this.props.button}
+                    </Button>
+                  </Link>
+                )}
               </div>
             </div>
           </div>
@@ -29,7 +42,9 @@ export default class SubBanner extends Component {
 
               <div className={styles.TextContent}>{this.props.content}</div>
               <div className={styles.offerRideButton}>
-                <Button color="black">{this.props.button}</Button>
+                <Button color="black" borderRadius="20px">
+                  {this.props.button}
+                </Button>
               </div>
             </div>
             <div className={styles.RectLeft}>

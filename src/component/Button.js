@@ -1,16 +1,19 @@
-import React, { Component } from 'react'
-import styles from "./OfferButtonwithblack.module.css"
+import React, { Component } from "react";
+import styles from "./Button.module.css";
 export default class Button extends Component {
-    render() {
-        return (
-        
-            <div className={styles.offerRide}>
-            <button className={this.props.color==="white"?styles.offerRide:styles.offerButtonwithblack}>{this.props.children}</button>
-            </div>
-            
-        )
-    }
+  render() {
+    return (
+      <button
+        className={
+          this.props.borderRadius === "20px"
+            ? this.props.color === "black"
+              ? styles.button
+              : styles.saveButton
+            : styles.ButtonContainer
+        }
+      >
+        {this.props.children}
+      </button>
+    );
+  }
 }
-
-
-  

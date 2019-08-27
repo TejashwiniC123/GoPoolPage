@@ -3,8 +3,7 @@ import styles from "./Banner.module.css";
 import Image from "./Image";
 import Image2 from "../img/futuristic-1820728_960_720.jpg";
 import Button from "../component/Button";
-
-export default class Feed extends Component {
+export default class AfterLoginPage extends Component {
   render() {
     return (
       <div className={styles.Banner}>

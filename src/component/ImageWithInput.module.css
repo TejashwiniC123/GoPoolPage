@@ -1,0 +1,23 @@
+.imageHolder {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+.inputContainer {
+  display: inline-block;
+  width: 95%;
+  border: 1px solid grey;
+  height: auto;
+  padding: 10px;
+}
+
+.inputBox {
+  display: inline-block;
+  width: calc(100% - 30px);
+  height: 25px;
+  vertical-align: middle;
+  margin-left: 5px;
+  text-align: left;
+}

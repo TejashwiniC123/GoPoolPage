@@ -1,12 +1,11 @@
 import React, { Component, Fragment } from "react";
-
 import Header from "./Header";
 import Banner from "./Banner";
 import SubBanner from "./SubBanner";
 
-import Image1 from "./img/images.jpeg";
-import Image2 from "./img/download (2).jpeg";
-import Image3 from "./img/images (1).jpeg";
+import Image1 from "../img/images.jpeg";
+import Image2 from "../img/download (2).jpeg";
+import Image3 from "../img/images (1).jpeg";
 
 export default class HomePage extends Component {
   render() {

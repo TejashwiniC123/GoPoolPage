@@ -1,0 +1,21 @@
+.saveButton {
+  background-color: transparent;
+  color: white;
+  border-radius: 20px;
+
+  height: 34px;
+}
+
+.button {
+  border-radius: 20px;
+  height: 34px;
+  background-color: transparent;
+  color: black;
+}
+.ButtonContainer {
+  height: 43px;
+  width: 100%;
+  display: inline-block;
+  background-color: black;
+  color: white;
+}

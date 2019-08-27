@@ -1,10 +1,9 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import styles from "./Header.module.css";
+import styles from "../component/LoginHeader.module.css";
 import Image from "./Image";
 import image1 from "../img/c7dpEnXWzGMe.png";
-
-export default class Header extends Component {
+import { Link } from "react-router-dom";
+export default class LoginHeader extends Component {
   render() {
     return (
       <div className={styles.Header}>

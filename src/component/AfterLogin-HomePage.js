@@ -3,8 +3,7 @@ import { Link } from "react-router-dom";
 import styles from "./Header.module.css";
 import Image from "./Image";
 import image1 from "../img/c7dpEnXWzGMe.png";
-
-export default class Header extends Component {
+export default class AfterLoginHeader extends Component {
   render() {
     return (
       <div className={styles.Header}>

@@ -1,0 +1,73 @@
+.Signuppage {
+  width: auto;
+  height: 60%;
+}
+
+.ImageHolder {
+  width: 100%;
+  height: 880px;
+}
+
+.SignupAccount {
+  width: auto;
+  height: 50%;
+  background-color: white;
+  position: absolute;
+  top: 200px;
+  text-align: center;
+  padding: 50px;
+  margin-left: 40%;
+}
+
+.IconsWithCreateAccount {
+  width: auto;
+}
+.AccountText {
+  padding-top: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+}
+
+.SocialMediaIcons {
+  width: 40px;
+  height: 40px;
+  padding: 25px;
+  /* margin-left: 20px; */
+  display: inline-block;
+}
+
+.SignInbyEmail {
+  font-size: 12px;
+  font-family: Roboto;
+  font-style: normal;
+  padding-bottom: 5px;
+  line-height: 10px;
+}
+
+.inputContainer {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+
+.HaveAccountText {
+  font-size: 10px;
+  display: inline-block;
+  padding-bottom: 20px;
+}
+
+.LoginNow {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.ButtonContainer {
+  width: 103%;
+  /* margin-left: 9px; */
+  padding-top: 10px;
+}

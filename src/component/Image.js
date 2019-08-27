@@ -8,8 +8,8 @@ export default class Image extends Component {
           backgroundImage: `url(${this.props.image})`,
           backgroundSize: `cover`,
           width: "100%",
-          height: "100%",
-        //   borderRadius: `${this.props.borderRadius}`
+          height: "100%"
+          //   borderRadius: `${this.props.borderRadius}`
         }}
       />
     );
